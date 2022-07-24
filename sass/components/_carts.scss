@@ -1,0 +1,30 @@
+.section-title.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+.carts {
+  display: flex;
+}
+.carts__item {
+  margin-right: 30px;
+  position: relative;
+}
+.carts__item:last-child {
+  margin-right: 0px;
+}
+.carts__overlay {
+  position: absolute;
+  bottom: 7px;
+  left: 0;
+  width: 370px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.17;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--primary-white-color);
+}

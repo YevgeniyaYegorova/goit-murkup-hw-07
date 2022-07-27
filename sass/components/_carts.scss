@@ -8,10 +8,11 @@
 .carts__item {
   margin-right: 30px;
   position: relative;
+  &:last-child {
+    margin-right: 0px;
+  }
 }
-.carts__item:last-child {
-  margin-right: 0px;
-}
+
 .carts__overlay {
   position: absolute;
   bottom: 7px;

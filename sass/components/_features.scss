@@ -9,10 +9,12 @@
 }
 .features__item {
   margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
 }
-.features__item:last-child {
-  margin-right: 0px;
-}
+
 .features__title {
   color: var(--title-text-color);
   text-transform: uppercase;

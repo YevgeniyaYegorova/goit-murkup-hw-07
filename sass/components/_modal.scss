@@ -48,9 +48,9 @@
 
 .close {
   fill: var(--primary-text-color);
-}
 
-.close:focus,
-.close:hover {
-  fill: var(--accent-color);
+  &:focus,
+  &:hover {
+    fill: var(--accent-color);
+  }
 }
